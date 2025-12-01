@@ -4,7 +4,7 @@
 
 ## Игнорируемые файлы
 
-При помощи файла .gitignore в terraform будут игнорироваться все файлы в названии который присутствует: .tfstate, crash.log, .tfvars, _override.tf, .terraformrc, .terraform.tfstate.lock.info
+При помощи файла .gitignore в terraform будут игнорироваться все файлы в названии который присутствует: .terraform/, *.tfstate, *.tfstate.*, crash.log, crash.*.log, *.tfvars, *.tfvars.json, override.tf, override.tf.json, *_override.tf. *_override.tf.json, .terraform.tfstate.lock.info, .terraformrc, terraform.rc
 
 ## Промежуточные итоги
 
